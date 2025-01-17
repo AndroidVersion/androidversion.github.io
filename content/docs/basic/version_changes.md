@@ -1,7 +1,7 @@
 ---
 weight: 10
 bookFlatSection: false  
-title: "Changes"
+title: "Change Log"
 ---
 
 # Changes

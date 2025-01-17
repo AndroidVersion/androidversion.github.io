@@ -1,10 +1,15 @@
 ---
-title: Introduction
+title: Android Version
 type: docs
 bookToC: false
 ---
 
-# Android Versions
+
+# **Android Version**
+
+`androidversion.github.io`
+
+All the Android Version releases compiled in one place.
 
 | Name                                                           | Codename             | Version                | API Level | Release Date       | Status      |
 |----------------------------------------------------------------|----------------------|------------------------|-----------|--------------------|-------------|
@@ -44,4 +49,88 @@ bookToC: false
 | [Android Cupcake (1.5)](/docs/existing/android-1-5)            | Cupcake              | 1.5                    | `3`       | April 27, 2009     | Unsupported |
 | [Android 1.1](/docs/existing/android-1-1)                      | Petit Four           | 1.1                    | `2`       | February 9, 2009   | Unsupported |
 | [Android 1.0](/docs/existing/android-1-0)                      | —                    | 1.0                    | `1`       | September 23, 2008 | Unsupported |
+
+{{% hint info %}}
+**Note**
+* **Name** - The official name of the Android version; In some cases numbers (7,8) are used for
+  clarity.
+* **Codename** - The internal codename of the Android version used during development.
+* **Version** - The version number of the Android release.
+* **API Level** - The API level of the Android version.
+* **Release Date** - The date when the Android version was officially released.
+* **Status** - The current status of the Android version.
+    - **Preview** - The version is in the preview stage and not yet released.
+    - **Latest** - The latest stable version of Android.
+    - **Maintained** - The version is still supported and maintained.
+    - **Unsupported** - The version is no longer supported.
+{{% /hint %}}
+
+{{% hint info %}}
+**Another Note**
+* Rows with multiple versions (e.g., 4.0 – 4.0.2) indicate a range of versions that share the same
+  API level.
+* Rows with empty names belongs to the same version as the previous row.
+{{% /hint %}}
+
+
+{{% hint warning %}}
+**Disclaimer**
+This site is not affiliated with Google or any of the device manufacturers listed on this site. All the contents are gathered from the official Android website and other reliable sources.
+Please note that the information provided on this site is for educational purposes only and may not be accurate or up to date.
+{{% /hint %}}
+
+
+# **About Me**
+
+Hi, I'm **K M Rejowan Ahmmed**, an **Android Developer** based in **Dhaka, Bangladesh** with over **5 years of experience**. I specialize in building Android apps using **Kotlin**, **Jetpack Compose**, and other modern Android tools. I also create content to help others learn Android development and Kotlin.
+
+<p align="center"> 
+  <a href="https://github.com/ahmmedrejowan/">
+    <img src="https://img.shields.io/badge/GitHub-%20-grey?style=flat&logo=github&logoColor=white&labelColor=24292e" />
+  </a> 
+  <a href="https://www.linkedin.com/in/ahmmedrejowan/">
+    <img src="https://img.shields.io/badge/LinkedIn-%20-grey?style=flat&logo=linkedin&logoColor=white&labelColor=0077B5" />
+  </a>  
+  <a href="https://twitter.com/ahmmedrejowan">
+    <img src="https://img.shields.io/badge/X-%20-grey?style=flat&logo=x&logoColor=white&labelColor=1DA1F2" />
+  </a> 
+  <a href="https://dev.to/ahmmedrejowan">
+    <img src="https://img.shields.io/badge/Dev-%20-grey?style=flat&logo=devdotto&logoColor=white&labelColor=0A0A0A" />
+  </a>  
+  <a href="https://stackoverflow.com/users/9932194/k-m-rejowan-ahmmed">
+    <img src="https://img.shields.io/badge/Stack_Overflow-%20-grey?style=flat&logo=stack-overflow&logoColor=white&labelColor=FE7A16" />
+  </a> 
+  <a href="https://www.facebook.com/ahmmedrejowan/">
+    <img src="https://img.shields.io/badge/Facebook-%20-grey?style=flat&logo=facebook&logoColor=white&labelColor=1877F2" />
+  </a>  
+</p>
+
+# **Contribute**
+
+If you'd like to contribute to this project, you can:
+1. **Fork this repository** and make your changes.
+2. **Submit a pull request** with your improvements or additions.
+3. **Create an Issue** if you spot any bugs or have suggestions for new content.
+
+{{< button href="https://github.com/AndroidVersion/androidversion.github.io" >}}Contribute{{< /button >}}
+
+
+I appreciate your support and contributions to this project. Thank you! 
+
+# **License**
+```
+Copyright 2025 ahmmedrejowan
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
 
