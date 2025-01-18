@@ -75,8 +75,11 @@ All the Android Version releases compiled in one place.
 
 {{% hint warning %}}
 **Disclaimer**
+
 This site is not affiliated with Google or any of the device manufacturers listed on this site. All the contents are gathered from the official Android website and other reliable sources.
 Please note that the information provided on this site is for educational purposes only and may not be accurate or up to date.
+
+For the most recent and accurate information, please refer to the official [Android website](https://developer.android.com/about/versions) or the respective device manufacturer's website.
 {{% /hint %}}
 
 
