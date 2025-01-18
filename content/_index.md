@@ -145,3 +145,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
+# **References**
+- [Android Developer](https://developer.android.com/)
+- [Android Version History](https://en.wikipedia.org/wiki/Android_version_history)
+- [Codenames, tags, and build numbers](https://source.android.com/docs/setup/reference/build-numbers)
