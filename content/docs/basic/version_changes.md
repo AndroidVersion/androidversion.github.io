@@ -249,6 +249,16 @@ Codename : Ice Cream Sandwich
 Version : 4.0.3 - 4.0
 ```
 
+- Refined "Holo" UI with Roboto font.
+- On-screen navigation buttons introduced.
+- Face Unlock for facial recognition unlocking.
+- Android Beam for NFC-based sharing.
+- Data usage monitoring and control added.
+- Improved camera with panorama mode and face detection.
+- Screenshot functionality introduced.
+- Enhanced multitasking with swipe-to-dismiss for notifications and apps.
+- Resizable widgets and better folder organization.
+
 ## Android Honeycomb (3)
 
 ```
@@ -258,6 +268,20 @@ API Level : 13 - 11
 Codename : Honeycomb
 Version : 3.2 - 3.0
 ```
+
+- Optimized tablet support with a "holographic" user interface.
+- Introduced System Bar for notifications, status, and navigation.
+- Added Action Bar for contextual options and navigation.
+- Simplified multitasking with a Recent Applications feature.
+- Redesigned keyboard for larger screens.
+- Multiple browser tabs with incognito mode.
+- Enhanced camera features like time-lapse and front-facing support.
+- Two-pane UI for Contacts and Email for better organization.
+- Hardware acceleration and multi-core processor support.
+- Ability to encrypt all user data.
+- Support for HTTPS with Server Name Indication (SNI).
+- Disallowed full write access to secondary storage for apps.
+
 
 ## Android Gingerbread (2.3)
 
@@ -269,6 +293,18 @@ Codename : Gingerbread
 Version : 2.3.3 - 2.3
 ```
 
+- Near Field Communication (NFC) support introduced.
+- Native SIP VoIP internet telephone support added.
+- Updated UI with a black background for better contrast and power efficiency.
+- Improved virtual keyboard with better accuracy and voice input.
+- Enhanced copy/paste functionality with word selection.
+- New audio effects including reverb, equalization, and bass boost.
+- Support for multiple cameras, including front-facing cameras.
+- New Download Manager for accessing downloaded files.
+- WebM/VP8 video playback and AAC audio encoding supported.
+- Improved power management and concurrent garbage collection for better performance.
+- Native support for more sensors, such as gyroscopes and barometers.
+
 ## Android Froyo (2.2)
 
 ```
@@ -278,6 +314,17 @@ API Level : 8
 Codename : Froyo
 Version : 2.2 - 2.2.3
 ```
+
+- USB tethering and Wi-Fi hotspot functionality introduced.
+- Speed and performance optimizations with JIT compilation.
+- Cloud to Device Messaging (C2DM) enabled push notifications.
+- Improved Microsoft Exchange support with security features and remote wipe.
+- Browser updated with Chrome's V8 JavaScript engine and file upload support.
+- Adobe Flash support added.
+- Apps could be installed to expandable memory.
+- Updated Market with batch and automatic app updates.
+- Support for high-PPI displays and animated GIFs in the browser.
+- Gallery introduced zoom gestures for picture stacks.
 
 ## Android Eclair (2.0)
 
@@ -289,6 +336,17 @@ Codename : Eclair
 Version : 2.1 - 2.0
 ```
 
+- Multiple accounts for email and contact sync.
+- Microsoft Exchange email support with a combined inbox.
+- Bluetooth 2.1 support.
+- Improved virtual keyboard with smarter dictionary and contact name suggestions.
+- Redesigned camera with flash, digital zoom, scene mode, and macro focus.
+- Live wallpapers introduced for animated home screen backgrounds.
+- Enhanced browser with HTML5 support, bookmark thumbnails, and double-tap zoom.
+- Multi-touch support added to the MotionEvent class.
+- Support for more screen sizes and resolutions.
+- Improved Google Maps 3.1.2.
+
 ## Android Donut (1.6)
 
 ```
@@ -298,6 +356,15 @@ API Level : 4
 Codename : Donut
 Version : 1.6
 ```
+
+- Support for CDMA smartphones and WVGA screen resolutions.
+- Battery usage indicator introduced.
+- Text-to-speech engine added.
+- Improved search integrating bookmarks, history, contacts, and the web.
+- Enhanced Android Market with app screenshots and easier search.
+- Faster camera access and integrated Gallery, Camera, and Camcorder.
+- Multi-lingual speech synthesis engine introduced.
+- Expanded Gesture framework with GestureBuilder tool.
 
 ## Android Cupcake (1.5)
 
@@ -309,6 +376,15 @@ Codename : Cupcake
 Version : 1.5
 ```
 
+- Virtual keyboard introduced.
+- Widgets added to the home screen.
+- Direct uploads to YouTube and Picasa.
+- Stereo Bluetooth and pausing/resuming downloads supported.
+- Improved web browser with JavaScript engine and copy-paste.
+- Gmail batch operations and improved Contacts app with Google Talk integration.
+- Support for MPEG-4 and 3GP videos.
+- APIs for widgets, audio/video recording, and replacement keyboards.
+
 ## Android 1.1
 
 ```
@@ -318,6 +394,11 @@ API Level : 2
 Codename : Petit Four
 Version : 1.1
 ```
+
+- Details and reviews available in Maps business search.
+- Longer in-call screen timeout for speakerphone.
+- Ability to save message attachments.
+- Marquee support added to system layouts.
 
 ## Android 1.0
 
@@ -329,3 +410,11 @@ Codename : —
 Version : 1.0
 ```
 
+- First commercial version of Android.
+- Android Market introduced.
+- Web browser supported HTML and XHTML with zoom and pan.
+- Gmail, Contacts, and Calendar synchronization with Google services.
+- Google Maps included Street View and GPS navigation.
+- Notifications in the Status bar with customizable alerts.
+- Voice Dialer for voice-based dialing.
+- Wi-Fi and Bluetooth support.  
