@@ -20,15 +20,21 @@ Version : 16 Developer Preview 2
 
 #### Major Changes
 
-- JobScheduler quota optimizations.
-- Photo picker embedding and cloud search APIs.
-- Adaptive refresh rate improvements.
-- Enhanced job introspection APIs.
-- System-triggered profiling for cold starts and ANRs.
-- Health Connect updates with new data types and APIs.
-- Privacy Sandbox updates.
-- Predictive back navigation updates.
-- Richer haptic effect APIs.
+- Embedded photo picker with support for cloud-based media and search functionality.
+- Health records integration with FHIR format support for apps.
+- Privacy Sandbox enhancements for anonymized and private advertising.
+- Audio sharing with Bluetooth LE Audio’s Auracast technology.
+- Notification cooldown feature to minimize alerts during rapid notification bursts.
+- JobScheduler improvements with better quota management and introspection APIs.
+- Adaptive refresh rate support with new APIs for frame rate optimization.
+- System-triggered profiling for app performance insights.
+- Deprecation of disruptive accessibility announcements.
+- Enhanced predictive back animations and callback APIs.
+- Richer haptics with customizable amplitude and frequency curves.
+- Wi-Fi 6 802.11az ranging with improved accuracy and security.
+- Expanded Health Connect features, including activity intensity tracking.
+- Strengthened privacy with new permissions and features for user data protection.
+
 
 ## Android 15
 
@@ -42,25 +48,27 @@ Version : 15
 
 #### Major Changes
 
-- TalkBack now supports Braille displays using HID over USB and Bluetooth.
-- Low Light Boost introduced for enhanced camera performance.
-- New APIs for in-app camera controls and HDR headroom adjustments.
-- Satellite connectivity support extended with improved UI consistency.
-- Seamless tap-to-pay experiences and NFC ecosystem enhancements.
-- App archiving and unarchiving now supported at the OS level.
-- ANGLE added as an optional layer for running OpenGL® ES on Vulkan.
-- Enhanced font support with CJK variable fonts and Hentaigana.
-- New SQLite APIs for better database performance.
-- Apps can detect screen recording for privacy-sensitive content.
-- Credential Manager integrates single-tap sign-up with biometric prompts.
-- Predictive back gesture animations enabled for opted-in apps.
-- Expanded support for partial screen sharing and media projection controls.
-- Improved Do Not Disturb rules via AutomaticZenRule enhancements.
-- Restrictions introduced for BOOT_COMPLETED foreground service launches.
-- TLS 1.0 and 1.1 usage restricted for apps targeting Android 15.
-- Private space feature for sensitive apps with additional authentication.
-- Richer widget previews now possible with the Generated Previews API.
-
+- Reintroduction of lockscreen widgets for tablets.
+- Partial screen sharing for specific app windows.
+- Integration of Privacy Sandbox for enhanced ad privacy.
+- Updated Health Connect for fitness, nutrition, and health data.
+- Dynamic Performance Framework updates for games and performance-intensive apps.
+- Support for ISO 21496-1 HDR and Ultra HDR image standards.
+- OS-level support for app archiving and unarchiving.
+- Camera enhancements: Low Light Boost, Loudness Control API, HDR headroom adjustments.
+- Satellite connectivity support for remote areas.
+- Improved NFC reliability for tap-to-pay experiences.
+- Enhanced multitasking features for large screens, foldables, and tablets.
+- Introduction of Private Space for secured apps and data.
+- Granular app permissions requiring a minimum API level of 24.
+- Modernized GPU access using ANGLE on Vulkan.
+- Default enabled Predictive Back animations for smoother transitions.
+- Generated Previews API for richer widget previews.
+- SQLite and profiling improvements for better app performance.
+- Media projection updates: status bar indicator and automatic stop when locked.
+- Improved TalkBack braille support for HID devices.
+- Enhanced audio features: AV1 decoding, loudness controls, and Virtual MIDI 2.0 devices.
+- 
 ## Android 14
 
 ```
@@ -73,18 +81,25 @@ Version : 14
 
 #### Major Changes
 
-Got it! Let me reformat the provided content in your preferred style:
-
-- Non-linear font scaling up to 200% for accessibility compliance.
-- Ultra HDR support for vibrant images with higher contrast.
-- Enhanced camera extensions for low-light and compute-intensive photography.
-- In-sensor zoom for real-time control during photo capture.
-- Lossless USB audio support for high-quality sound experiences.
-- Test apps for usability with Android’s increased font scaling capabilities.
-- Predictive back navigation updates for smoother app transitions.
-- Richer haptic effect APIs for immersive user interactions.
-- Health Connect updates integrated into the platform.
-- Privacy Sandbox enhancements for better user data protection.
+- Installation of apps targeting Android versions below Marshmallow (6.0) is blocked to prevent malware.
+- Non-linear font scaling up to 200% for improved accessibility.
+- Expanded per-app language preferences with a new Grammatical Inflection API for gendered language support.
+- Ultra HDR support for capturing and displaying high-dynamic-range photos.
+- Enhanced battery-saving options, including direct access to extreme battery-saver mode.
+- Display of battery usage since the last full charge and separation of system vs. user app consumption.
+- Improved lock screen customization with multiple clock and weather styles.
+- Expanded taskbar for larger screens, now displaying app names alongside icons.
+- Ability to use a phone as a webcam when connected to another device.
+- Health Connect integrated into the platform for seamless syncing with health and fitness apps.
+- Enhanced app privacy with partial photo and video access permissions.
+- Introduction of Credential Manager supporting passkeys and federated sign-ins.
+- Safer dynamic code loading and restrictions on starting background activities.
+- New sharesheet with custom app actions and improved content ranking.
+- Lossless USB audio support for audiophile-quality sound.
+- Redesigned Material You color themes and interface tweaks.
+- New predictive back gesture API for smoother app transitions.
+- Jetpack Compose integration for parts of the system settings app.
+- Expanded screenshot detection and enhanced user data safety information visibility.
 
 ## Android 13
 
@@ -98,31 +113,23 @@ Version : 13
 
 #### Major Changes
 
-- HDR video capture via Camera2 APIs.
-- BluetoothAdapter#enable() and BluetoothAdapter#disable() deprecated in Android 13.
-- OpenJDK 11 updates.
-- Themed app icons with dynamic color.
-- Per-app language preferences.
-- Faster hyphenation for TextView.
-- Improved line heights for non-Latin scripts.
-- Unicode library updates (ICU 70, CLDR 40, Unicode 14.0).
-- Quick Settings placement API for custom tiles.
-- Predictive back gesture.
-- Bluetooth LE Audio and MIDI 2.0 support.
-- ART runtime optimizations.
-- Permission required for advertising ID.
-- Programmable shaders for advanced effects.
-- Anticipatory audio routing and spatial audio.
-- Battery Resource Utilization for managing device battery life.
-- Runtime notification permission (POST_NOTIFICATIONS).
-- New runtime permission for nearby Wi-Fi devices.
-- Granular media permissions.
-- Safer exporting of context-registered receivers.
-- Photo picker for safe media selection.
-- New permission for exact alarms (USE_EXACT_ALARM).
-- APK Signature Scheme v3.1.
-- Optimizations for tablets, multitasking, and compatibility modes.
-
+- Apps must request user permission to send notifications.
+- Active apps indicator in the notification panel with the ability to stop them.
+- Support for Bluetooth LE Audio and LC3 codec for better audio quality and battery life.
+- ART update with a new garbage collector for improved memory management and reduced app crashes.
+- Themed app icons supported by third-party apps.
+- Granular media permissions for specific access to photos, videos, or audio.
+- Photo picker for safer media file selection without granting access to the entire library.
+- Per-app language preferences for changing the language of individual apps.
+- Enhanced clipboard privacy with hidden sensitive content previews.
+- Optimized multitasking and split-screen improvements for tablets and large screens.
+- Wi-Fi 7 support for lower latency and improved connectivity.
+- Predictive back gesture for smoother navigation experiences.
+- Spatial audio support for immersive sound.
+- Dynamic app themes and Material You icons.
+- MIDI 2.0 support and programmable shaders for developers.
+- Better app startup and performance improvements via ART optimizations.
+- Improved support for tablets and large screens, building on Android 12L.
 
 ## Android 12L
 
@@ -136,7 +143,13 @@ Version : 12.1
 
 #### Major Changes
 
-
+- Optimized UI for large screens with two-column layouts for notifications and lock screens.
+- Taskbar for quick app switching and drag-and-drop split-screen multitasking.
+- Improved compatibility mode for unoptimized apps on large screens.
+- Enhanced support for foldables, tablets, and Chromebooks.
+- Improved split-screen mode accessibility for all apps.
+- Activity embedding for displaying multiple activities side by side.
+- Better compatibility for media projection and camera previews on large screens.
 
 ## Android 12
 
@@ -148,6 +161,20 @@ Codename : Snow Cone
 Version : 12
 ```
 
+#### Major Changes
+
+- Material You design language for dynamic theming.
+- Privacy Dashboard for tracking app permission usage.
+- Camera and microphone indicators for active access notifications.
+- Scrolling screenshots and one-handed mode.
+- Approximate location sharing option for apps.
+- Android Runtime (ART) updates via Google Play.
+- Performance improvements in app startup and system transitions.
+- Spatial audio, HEVC video transcoding, and AVIF image format support.
+- Rich content insertion API for easier sharing between apps.
+- App hibernation for unused apps to save resources.
+- Game Mode API for optimizing gaming experiences.
+- Redesigned widgets and enhanced haptic feedback.
 
 ## Android 11
 
@@ -159,6 +186,26 @@ Codename : Red Velvet Cake
 Version : 11
 ```
 
+#### Major Changes
+
+- Chat bubbles for messaging apps to maintain conversations across tasks.
+- Built-in screen recorder for capturing device activities.
+- Notification history to review previously dismissed notifications.
+- One-time permissions for camera, microphone, and location access.
+- Permissions auto-reset for apps unused for a prolonged period.
+- Scoped storage enforcement for enhanced file access privacy.
+- Wireless Android Auto support for devices with 5GHz Wi-Fi.
+- Expanded updatable system components through Google Play (from 12 to 21 modules).
+- New privacy protections for work profiles on company-owned devices.
+- Independent sensitivity adjustment for gesture navigation edges.
+- Thermal API to optimize app performance during device overheating.
+- Enhanced support for foldable and waterfall displays.
+- Wireless ADB debugging for improved developer workflows.
+- Incremental APK installation for faster deployment of large apps.
+- Biometric authentication improvements with expanded support for various authentication flows.
+- Enhanced multiple camera usage and HEIF image handling.
+- Faster app launch times and improved privacy on Android 11 Go Edition.
+
 ## Android 10
 
 ```
@@ -168,6 +215,19 @@ API Level : 29
 Codename : Quince Tart
 Version : 10
 ```
+
+#### Major Changes
+
+- Fully gestural navigation system replaces traditional navigation buttons.
+- System-wide dark mode for improved low-light usability and battery saving.
+- Scoped storage enhances user privacy by restricting app access to external storage.
+- Project Mainline enables seamless updates to core OS components via Google Play.
+- Improved location permissions allow access only while the app is in active use.
+- Enhanced privacy with randomized MAC addresses and restricted access to device identifiers.
+- Support for foldable devices and 5G networks with optimized APIs.
+- Smart Reply in notifications provides contextual suggestions using on-device machine learning.
+- Adiantum encryption ensures mandatory device encryption on low-end devices.
+- Support for AV1 video codec, HDR10+, and Opus audio codec for better media performance.
 
 ## Android Pie (9)
 
@@ -179,6 +239,19 @@ Codename : Pistachio Ice Cream
 Version : 9
 ```
 
+#### Major Changes
+
+- Gesture-based navigation system introduced for smoother navigation.
+- Adaptive Battery and Adaptive Brightness optimize power and screen settings using AI.
+- Redesigned notification panel and quick settings for a cleaner, more intuitive layout.
+- Android Dashboard for tracking and limiting device and app usage.
+- "Wind Down" mode encourages reduced device usage before bedtime.
+- Richer messaging notifications with inline replies and conversation previews.
+- Support for display cutouts (notches) with UI adjustments.
+- DNS over TLS introduced as "Private DNS" for improved security.
+- High Efficiency Image File Format (HEIF) support for efficient image storage.
+- Enhanced biometric authentication API for advanced methods like in-screen fingerprint readers.
+
 ## Android Oreo (8)
 
 ```
@@ -188,6 +261,21 @@ API Level : 27 - 26
 Codename : Oatmeal Cookie
 Version : 8.1 - 8.0
 ```
+
+#### Major Changes
+
+- Project Treble introduced for modular architecture and faster updates.
+- Picture-in-picture mode enabled for multitasking.
+- Notification channels and dots introduced for better notification management.
+- Background activity restrictions for improved battery life.
+- Autofill framework added for easier form filling.
+- Adaptive icons introduced for dynamic and customizable app icons.
+- Google Play Protect enhanced device security and app scans.
+- Neural Networks API added for on-device machine learning.
+- Wi-Fi Aware enabled communication without internet.
+- Android Oreo (Go Edition) optimized for low-end devices.
+- High-quality Bluetooth codecs like LDAC and aptX supported.
+- Faster boot times on supported devices.
 
 ## Android Nougat (7)
 
@@ -199,6 +287,19 @@ Codename : New York Cheesecake
 Version : 7.1 - 7.0
 ```
 
+#### Major Changes
+
+- Multi-window support for split-screen multitasking.
+- Redesigned notifications with bundled notifications and inline replies.
+- Enhanced Doze mode for improved battery saving.
+- Seamless system updates using dual partitions.
+- Support for Vulkan 3D rendering API.
+- File-based encryption with "Direct Boot."
+- Data Saver mode to limit background data usage.
+- Just-In-Time (JIT) compiler added to improve app performance.
+- Daydream VR platform introduced.
+- Picture-in-picture mode for Android TV.
+
 ## Android Marshmallow (6)
 
 ```
@@ -208,6 +309,19 @@ API Level : 23
 Codename : Macadamia Nut Cookie
 Version : 6.0 - 6.0.1
 ```
+
+#### Major Changes
+
+- Introduction of Doze mode and App Standby for improved battery life.
+- Adoptable Storage feature for using SD cards as internal storage.
+- New runtime permissions model for app-specific permissions at runtime.
+- Native fingerprint recognition support for unlocking devices and app authentication.
+- USB-C support with reverse charging capability.
+- Verified links open directly in associated apps without user prompts.
+- Google Now on Tap for contextual search based on on-screen content.
+- Automatic app data backup to Google Drive.
+- Support for 4K display mode and MIDI devices.
+- Enhanced security with mandatory device encryption on capable devices.
 
 ## Android Lollipop (5)
 
@@ -219,6 +333,20 @@ Codename : Lemon Meringue Pie
 Version : 5.1 - 5.0
 ```
 
+#### Major Changes
+
+- Introduction of Material Design for a more unified and responsive UI.
+- Android Runtime (ART) officially replaced Dalvik for better performance.
+- "Project Volta" introduced for improved battery life with a new battery saver mode.
+- Notifications revamped with lock screen visibility and "heads-up" banners.
+- Multi-user support extended to phones, including guest mode.
+- Smart Lock added for unlocking devices with trusted locations, devices, or NFC.
+- Support for 64-bit CPUs and OpenGL ES 3.1 with Android Extension Pack for better graphics.
+- USB audio support and improved external storage access via the Storage Access Framework.
+- Enhanced security with SELinux enforcing mode and "Android for Work" features.
+- Screen pinning for restricted user activity.
+- Updated WebView with independent updates through Google Play.
+
 ## Android KitKat (4.4)
 
 ```
@@ -228,6 +356,21 @@ API Level : 20 - 19
 Codename : Key Lime Pie
 Version : 4.4W - 4.4
 ```
+
+#### Major Changes
+
+- Optimized performance for devices with 512 MB of RAM ("Project Svelte").
+- Introduction of Android Runtime (ART) as an experimental replacement for Dalvik.
+- Translucent status and navigation bars with "immersive mode" for full-screen apps.
+- Host card emulation for NFC, enabling mobile payments.
+- Built-in screen recording feature (via ADB).
+- Wireless printing capability added.
+- New Storage Access Framework with a system-wide file picker.
+- WebView updated to use the Chromium engine.
+- Sensor batching and step detection APIs introduced.
+- Default apps can be set for home launcher and SMS.
+- Google Hangouts replaced Messaging app, integrating SMS.
+- Enforcing SELinux for improved security.
 
 ## Android Jelly Bean (4.1)
 
@@ -239,6 +382,20 @@ Codename : Jelly Bean
 Version : 4.3 - 4.1
 ```
 
+#### Major Changes
+
+- "Project Butter" introduced for smoother UI and 60 fps performance.
+- Expandable and actionable notifications added.
+- Gesture typing introduced for the keyboard.
+- Android Beam enabled Bluetooth file transfers via NFC.
+- Multi-user support for tablets introduced.
+- Lock screen widgets and Quick Settings panel added.
+- Rewritten Bluetooth stack (BlueDroid) with Miracast support.
+- Bluetooth Low Energy and OpenGL ES 3.0 support added.
+- SELinux enforced for improved security.
+- Introduction of Daydream screensavers and gapless audio playback.
+- Support for 4K resolution and improved DRM APIs.
+
 ## Android Ice Cream Sandwich (4.0)
 
 ```
@@ -248,6 +405,8 @@ API Level : 15 - 14
 Codename : Ice Cream Sandwich
 Version : 4.0.3 - 4.0
 ```
+
+#### Major Changes
 
 - Refined "Holo" UI with Roboto font.
 - On-screen navigation buttons introduced.
@@ -269,6 +428,8 @@ Codename : Honeycomb
 Version : 3.2 - 3.0
 ```
 
+#### Major Changes
+
 - Optimized tablet support with a "holographic" user interface.
 - Introduced System Bar for notifications, status, and navigation.
 - Added Action Bar for contextual options and navigation.
@@ -282,7 +443,6 @@ Version : 3.2 - 3.0
 - Support for HTTPS with Server Name Indication (SNI).
 - Disallowed full write access to secondary storage for apps.
 
-
 ## Android Gingerbread (2.3)
 
 ```
@@ -292,6 +452,8 @@ API Level : 10 - 9
 Codename : Gingerbread
 Version : 2.3.3 - 2.3
 ```
+
+#### Major Changes
 
 - Near Field Communication (NFC) support introduced.
 - Native SIP VoIP internet telephone support added.
@@ -315,6 +477,8 @@ Codename : Froyo
 Version : 2.2 - 2.2.3
 ```
 
+#### Major Changes
+
 - USB tethering and Wi-Fi hotspot functionality introduced.
 - Speed and performance optimizations with JIT compilation.
 - Cloud to Device Messaging (C2DM) enabled push notifications.
@@ -335,6 +499,8 @@ API Level : 7 - 5
 Codename : Eclair
 Version : 2.1 - 2.0
 ```
+
+#### Major Changes
 
 - Multiple accounts for email and contact sync.
 - Microsoft Exchange email support with a combined inbox.
@@ -357,6 +523,8 @@ Codename : Donut
 Version : 1.6
 ```
 
+#### Major Changes
+
 - Support for CDMA smartphones and WVGA screen resolutions.
 - Battery usage indicator introduced.
 - Text-to-speech engine added.
@@ -375,6 +543,8 @@ API Level : 3
 Codename : Cupcake
 Version : 1.5
 ```
+
+#### Major Changes
 
 - Virtual keyboard introduced.
 - Widgets added to the home screen.
@@ -395,6 +565,8 @@ Codename : Petit Four
 Version : 1.1
 ```
 
+#### Major Changes
+
 - Details and reviews available in Maps business search.
 - Longer in-call screen timeout for speakerphone.
 - Ability to save message attachments.
@@ -409,6 +581,8 @@ API Level : 1
 Codename : —
 Version : 1.0
 ```
+
+#### Major Changes
 
 - First commercial version of Android.
 - Android Market introduced.
